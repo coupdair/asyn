@@ -1,0 +1,19 @@
+epicsInterruptibleSyscall.o: \
+ ../../asyn/asynDriver/epicsInterruptibleSyscall.c \
+ /root/code/EPICS/base/include/os/Linux/osiUnistd.h \
+ /root/code/EPICS/base/include/osiSock.h \
+ /root/code/EPICS/base/include/shareLib.h \
+ /root/code/EPICS/base/include/os/Linux/osdSock.h \
+ /root/code/EPICS/base/include/ellLib.h \
+ ../../asyn/asynDriver/epicsInterruptibleSyscall.h \
+ /root/code/EPICS/base/include/epicsThread.h \
+ /root/code/EPICS/base/include/os/Linux/osdThread.h \
+ /root/code/EPICS/base/include/shareLib.h \
+ /root/code/EPICS/base/include/cantProceed.h \
+ /root/code/EPICS/base/include/errlog.h \
+ /root/code/EPICS/base/include/compilerDependencies.h \
+ /root/code/EPICS/base/include/epicsAssert.h \
+ /root/code/EPICS/base/include/epicsSignal.h \
+ /root/code/EPICS/base/include/epicsMutex.h \
+ /root/code/EPICS/base/include/epicsAssert.h \
+ /root/code/EPICS/base/include/os/Linux/osdMutex.h
